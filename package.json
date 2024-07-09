@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "inovara_personalizados",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
