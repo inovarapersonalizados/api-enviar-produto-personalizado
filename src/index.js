@@ -17,7 +17,7 @@ const upload = multer();
 
 const transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
-  port: process.env.PORT_API,
+  port: process.env.PORT_API || 3000,
   secure: true,
   auth: {
     user: process.env.AUTH_USER_EMAIL_API,
